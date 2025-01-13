@@ -3,9 +3,9 @@ i = 0
 imax = len(my_list)
 while i < imax:
 	if my_list[i] < 0:
-		break
+		break                # отрицательное число, прерываем вывод
 	elif my_list[i] == 0:
-		i += 1
+		i += 1               # ноль; пропускаем, но не прерываем
 		continue
 	else:
 		print(my_list[i])
